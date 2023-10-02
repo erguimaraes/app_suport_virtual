@@ -1,0 +1,28 @@
+nome = input('Digite seu nome ')
+print('bem vindo {}'.format(nome))
+print('como posso te ajudar hoje?')
+resposta = input(' ')
+print('suporte para dispositivo ou aplicativo?')
+resposta = input(' ')
+if resposta.lower() == "dispositivo":
+    print("qual o problema com o dispositivo?")
+elif resposta.lower() == "aplicativo":
+    print("qual o problema com o aplicativo.")
+else:
+    print("Resposta inválida. Por favor, responda 'dispositivo' ou 'aplicativo'.")
+if resposta.lower() == "numero de serie do dispositivo":
+    print("qual o numero de serie do dispositivo?")
+elif resposta.lower() == "numero de serie do dispositivo aplicativo":
+    print("qual o numero de serie do aplicativo.")
+resposta = input(' ')
+print('digite mais detalhes do problema')
+resposta = input(' ')
+print('tente seguir esse topico de ajuda: https://www.amazon.com.br/hz/contact-us/foresight/hubgateway ')
+print('essa informação te ajudou?')
+resposta = input(' ')
+if resposta.lower() == "sim":
+    print("Obrigado!")
+elif resposta.lower() == "não":
+    print("Vamos tentar algo diferente.")
+else:
+    print("Resposta inválida. Por favor, responda 'sim' ou 'não'.")
